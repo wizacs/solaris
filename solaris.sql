@@ -16,3 +16,10 @@ CREATE TABLE Rilevamento (
     timestamp_rilevamento TIMESTAMP NOT NULL,
     FOREIGN KEY (codice_sensore) REFERENCES Sensore(id_sensore)
 );
+
+-- INSERT
+
+INSERT INTO Sensore (nome_sensore, tipo_sensore, posizione_sensore, datainstallazione, stato) VALUES
+('Sensore Elettricità Ufficio 1', 'Elettricità', 'Reparto Uffici - Piano 1', '2024-01-15 09:00:00', TRUE),
+('Sensore Elettricità Magazzino', 'Elettricità', 'Magazzino Centrale', '2024-01-20 14:30:00', TRUE),
+('Sensore Elettricità Laboratorio', 'Elettricità', 'Laboratorio Qualità', '2024-02-01 08:45:00', TRUE);
