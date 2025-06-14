@@ -36,3 +36,6 @@ Solaris supporta sensori MQTT economici e facilmente reperibili. Questi sensori 
 - Evitare dipendenze superflue o servizi ridondanti.
 - Essere **distribuibile** rapidamente con un solo comando Docker.
 - Garantire **scalabilità** modulare (aggiunta di sensori o dashboard).
+
+from 2025-06-12 13:42:22 to 2025-06-14 13:44:22
+docker exec -it postgres_container psql -U user -d solaris
